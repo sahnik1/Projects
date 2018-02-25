@@ -6,14 +6,15 @@ output=$(git status | grep -c "up-to-date")
 if [ $(echo "${output}" | wc -l) -eq 1 ]
 then echo "Your local Repository is Up to Date with the Remote Repository"
 else
-	echo "Your local Repository is Not Up to Date with the Remote Repository"
+echo "Your local Repository is Not Up to Date with the Remote Repository"
 fi
 
 #Question 2
 git diff > changes.log
+echo "Uncommitted Changes Put in changes.log"
 
 #Question 3
-find ./ -type f -name "TODO" -exec cat {} + >> todo.log
+find ./ -type f -name "#TODO" -exec cat {} + >> todo.log
 echo "Content of Files With Name #TODO Have Been Put Into todo.log"
 
 #Question 4
@@ -36,6 +37,7 @@ fi
 
 #Unique Feature 2
 #Allows User to Zip/Unzip Files With a More Intuitive Interface
+
 echo "Would You Like to Make A Zip Archive With Multiple Files [y/n]"
 read UserIn
 
