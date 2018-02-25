@@ -28,11 +28,18 @@ echo "All Haskell Files Have Been Checked For Errors, All Errors are in error.lo
 #Tells The User What Company Makes Their Processor
 Cpuinfo=$(lscpu | grep "GenuineIntel")
 
-if [ $(echo "${Cpuinfo}" | wc -l) -eq 1 ];
-then
-echo "You are Running an Intel Machine, GO TEAM BLUE!!"
+echo "Would You Like to Know What Company Your Cpu is Made by? [y/n]"
+read input
+
+if [ ${input} == "y" ]
+then if [ $(echo "${Cpuinfo}" | wc -l) -eq 1 ];
+     then
+     echo "You are Running an Intel Machine, GO TEAM BLUE!!"
+     else
+     echo "You are Running an AMD Machine, GO TEAM RED!!"
+     fi
 else
-echo "You are Running an AMD Machine, GO TEAM RED!!"
+     echo "You Obviuosly Don't Care About Your Computer"
 fi
 
 #Unique Feature 2
@@ -60,4 +67,22 @@ then echo "The Max Amount of Files Allowed is 2"
 	 	fi
 else
 	 echo "Ok, No Zip Archives Were Made"
+fi
+
+#Unique Feature 3
+#Allows Users to Copy Files From One Directory to Another With a More Intuitive Interface
+
+echo "Would You Like To Copy All The Files From One Directory To Another? [y/n]"
+read userinput
+
+if [ ${userinput} == "y" ]
+then
+	 echo "What is The Directory From Where You Would Like to Copy Files From?"
+	 read userdir1
+	 echo "What is The Directory You Would Like the Files to Be Copied to?"
+	 read userdir2
+	 cp -r ${userdir1}/. ${userdir2}/
+	 echo "Success, Files From ${userdir1} Have Been Copied to ${userdir2}"
+else
+	echo "No Files Will Be Copied"
 fi
