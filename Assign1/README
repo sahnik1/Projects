@@ -1,4 +1,4 @@
-BQuestion 1:
+BBQuestion 1:
 
 A Variable "output" is used to store the value after grep is used to find the string "up-to-date" in the output of "git status". If the repo is up to date, then the wordcount of "output" is 1, and therefore the if statemtn tests this.
 
@@ -8,7 +8,7 @@ The command "git diff" outputs the uncommited changes and therefore ">" (stdout)
 
 Question 3:
 
-The command "find" is used and the part "-name "*" " means it doesn't care about the filenames. The "-name" part is to use the string "#TODO" to find files via the grep command. The "--exclude=" parts are to make sure the command doesn't use the the script file and the files made by the script itself. Then, ">" is used to append the info from find to todo.log.
+The command "find" is used and the part "-name "*" " means it doesn't care about the filenames. The grep command is used inside this find statement to match files containing the tag "#TODO". The "--exclude=" parts are to make sure the command doesn't use the the script file and the files made by the script itself. Then, ">" is used to append the info from find to todo.log.
 
 Question 4:
 
