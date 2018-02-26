@@ -8,7 +8,7 @@ The command "git diff" outputs the uncommited changes and therefore ">" (stdout)
 
 Question 3:
 
-The command "find" is used and the part "-name "*" " means it doesn't care about the filenames. The grep command is used inside this find statement to match files containing the tag "#TODO". The "--exclude=" parts are to make sure the command doesn't use the the script file and the files made by the script itself. Then, ">" is used to append the info from find to todo.log.
+The grep command is used to match lines in files containing the tag "#TODO". The "--exclude=" parts are to make sure the command doesn't use the the script file and the files made by the script. Then, the results are appended to "todo.log" via ">" (stdout).
 
 Question 4:
 
