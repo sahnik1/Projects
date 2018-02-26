@@ -1,4 +1,4 @@
-BBQuestion 1:
+Question 1:
 
 A Variable "output" is used to store the value after grep is used to find the string "up-to-date" in the output of "git status". If the repo is up to date, then the wordcount of "output" is 1, and therefore the if statemtn tests this.
 
