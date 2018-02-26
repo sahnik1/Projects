@@ -14,8 +14,8 @@ git diff > changes.log
 echo "Uncommitted Changes Put in changes.log"
 
 #Question 3
-find ./ -type f -name "#TODO" -exec cat {} + >> todo.log
-echo "Content of Files With Name #TODO Have Been Put Into todo.log"
+find ./* -name "*" -exec grep -qi "#TODO" --exclude=README --exclude=changes.log --exclude=todo.log --exclude=ProjectAnalyze.sh {} \; -exec cat {} \; > todo.log
+echo "Content of Files With The Tag #TODO Have Been Put Into todo.log"
 
 #Question 4
 for f in *.hs
