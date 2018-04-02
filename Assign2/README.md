@@ -1,4 +1,4 @@
-# Wheres Waldo? - Web Game
+# Where's Waldo? - Web Game
 
 Based on the assignment requirements for this project, the most important requirement that I’m also the most Proud of is the Creativity. Using my love for Where’s Waldo Books as a child, I came up with this idea all on my own while I was playing around with the mouse package on elm-lang.org .
 
