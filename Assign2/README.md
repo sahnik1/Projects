@@ -5,6 +5,7 @@ Based on the assignment requirements for this project, the most important requir
 ## Instructions
 
 * Find Waldo (Duh) 10 Times to Win The Game
+* Also be Sure to Turn Your Volume Up for the Game's Wonderful Audio
 * But Make Sure Not to Click Randomly as Only 3 Lives are Given
 * If You Find Yourself struggling to Find Him You can do 2 Things:
 	* Get An Eye-test Done and Get Glasses!
