@@ -5,7 +5,7 @@ A Small but Useful Math Library Made With Haskell, and Complete With Parsers, Pa
 ## Documentation
 
 * Documentation For This Lab Can be found on my [Website](http://ugweb.cas.mcmaster.ca/~sahnik/) Under Projects 
-* For Those Who Prefer it: [Direct Link](http://ugweb.cas.mcmaster.ca/~sahnik/Docs/index12.html)
+* For Those Who Prefer it: [Direct Link](http://ugweb.cas.mcmaster.ca/~sahnik/Docs/index.html)
 
 ## License
 
