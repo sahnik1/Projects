@@ -1,4 +1,4 @@
-#Custom Math Library
+# Custom Math Library
 
 A Small but Useful Math Library Made With Haskell, and Complete With Parsers, Partial Differentiation, Evaluation, Simplification of Expressions and Gradient Vectors (Extra Feature!).
 
