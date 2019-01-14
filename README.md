@@ -2,6 +2,8 @@
 
 ## Website Link: [Click Here](http://ugweb.cas.mcmaster.ca/~sahnik)
 
+## LinkedIn Link: [Click Here](https://www.linkedin.com/in/karanjot-sahni)
+
 ## Haskell Custom Math Library (With Parsers)
  * Documentation: [Here](http://ugweb.cas.mcmaster.ca/~sahnik/Docs/index.html)
 
