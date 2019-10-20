@@ -1,6 +1,6 @@
 # Projects
 
-## Website Link: [Click Here](http://ugweb.cas.mcmaster.ca/~sahnik)
+## Website Link: [Click Here](https://sahnik1.github.io)
 
 ## LinkedIn Link: [Click Here](https://www.linkedin.com/in/karanjot-sahni)
 
